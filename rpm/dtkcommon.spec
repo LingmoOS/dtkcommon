@@ -3,11 +3,11 @@ Version:        6.7.38
 Release:        1%{?dist}
 Summary:        dtk common files
 License:        LGPLv3+
-URL:            https://github.com/linuxdeepin/dtkcommon
+URL:            https://github.com/LingmoOS/dtkcommon
 %if 0%{?fedora}
-Source0:        %{url}/archive/%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/LingmoOS/dtkcommon.git#/%{name}-%{version}
 %else
-Source0:        %{name}-%{version}.orig.tar.xz
+Source0:        https://github.com/LingmoOS/dtkcommon.git#/%{name}-%{version}
 %endif
 BuildRequires:  qt5-qtbase-devel
 
