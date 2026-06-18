@@ -1,5 +1,5 @@
 <services>
-  <service name="tar_scm" mode="localonly">
+  <service name="tar_scm">
     <param name="url">https://github.com/LingmoOS/dtkcommon.git</param>
     <param name="scm">git</param>
     <param name="revision">main</param>
