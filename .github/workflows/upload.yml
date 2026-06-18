@@ -31,6 +31,10 @@ jobs:
       - name: Build source package
         run: |
           dpkg-buildpackage -S -us -uc -d
+          cd ../
+          mv dtkcommon/ dtkcommon-6.7.38
+          tar -cJf dtkcommon-6.7.38.tar.xz dtkcommon-6.7.38
+          cd dtkcommon-6.7.38/
       
       - name: Collect files
         run: |

@@ -4,7 +4,7 @@ Release:        1%{?dist}
 Summary:        dtk common files
 License:        LGPLv3+
 URL:            https://github.com/LingmoOS/dtkcommon
-Source0:        dtkcommon-%{version}.tar.gz
+Source0:        dtkcommon-%{version}.tar.xz
 BuildRequires:  qt5-qtbase-devel
 
 Obsoletes:      dtkcore <= 5.4.10

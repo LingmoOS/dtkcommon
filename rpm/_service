@@ -4,6 +4,6 @@
     <param name="scm">git</param>
     <param name="revision">main</param>
     <param name="versionformat">@PARENT_PROJECT_VERSION@</param>
-    <param name="filename">dtkcommon-%{version}</param>
+    <param name="filename">dtkcommon</param>
   </service>
 </services>
