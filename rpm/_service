@@ -1,0 +1,9 @@
+<services>
+  <service name="tar_scm" mode="localonly">
+    <param name="url">https://github.com/LingmoOS/dtkcommon.git</param>
+    <param name="scm">git</param>
+    <param name="revision">main</param>
+    <param name="versionformat">@PARENT_PROJECT_VERSION@</param>
+    <param name="filename">dtkcommon-%{version}</param>
+  </service>
+</services>

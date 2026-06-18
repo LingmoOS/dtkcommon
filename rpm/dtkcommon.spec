@@ -4,11 +4,7 @@ Release:        1%{?dist}
 Summary:        dtk common files
 License:        LGPLv3+
 URL:            https://github.com/LingmoOS/dtkcommon
-%if 0%{?fedora}
-Source0:        https://github.com/LingmoOS/dtkcommon.git#/%{name}-%{version}
-%else
-Source0:        https://github.com/LingmoOS/dtkcommon.git#/%{name}-%{version}
-%endif
+Source0:        dtkcommon-%{version}.tar.gz
 BuildRequires:  qt5-qtbase-devel
 
 Obsoletes:      dtkcore <= 5.4.10
