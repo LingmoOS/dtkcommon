@@ -2,7 +2,7 @@ dtkcommon (6.7.39.lingmo.1) unstable; urgency=medium
 
   * Lingmo namespace migration.
 
- --  yeshanshan <yeshanshan@uniontech.com>  Sun, 12 Jul 2026 23:11:19 +0800
+ --  Lingmo OS Team <team@lingmo.org>  Sun, 12 Jul 2026 23:11:19 +0800
 
 dtkcommon (6.7.38) unstable; urgency=medium
 
